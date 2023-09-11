@@ -95,10 +95,57 @@ footer{
     grid-column: 2;
    grid-row: 1;
  }
- 
+
+audio{
+    position:absolute;
+    left: 48px;
+    opacity: .60;
+    padding-top: 125px;
+}
+
+.Aloma{
+    position: relative;
+    bottom: 93px;
+    background: #808080;
+    opacity: 45%;
+    width: 37.5%;
+}
+.road{
+    position: relative;
+    bottom: 93px;
+    background: #808080;
+    opacity: 45%;
+    width: 37.5%;
+}
+
+.fruit{
+    position: relative;
+    bottom: 93px;
+    background: #808080;
+    opacity: 45%;
+    width: 37.5%;
+}
+
+.smooth{
+    position: relative;
+    bottom: 93px;
+    background: #808080;
+    opacity: 45%;
+    width: 37.5%;
+}
 
 
-ul {
+.success{
+    position: relative;
+    bottom: 93px;
+    background: #808080;
+    opacity: 45%;
+    width: 37.5%;
+}
+
+
+
+    ul {
     text-align: center;
     margin: 0;
     padding: 0;
