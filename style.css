@@ -53,9 +53,21 @@ footer p {
     font-size: .75em;
 }
 
+.playsty{
+    background-color: #2699FB;
+}
 
+#PLAYLISTS{
+    background-color: #0D8DFB; 
+}
 
+.CuratedSty{
+    background-color: #2104D9;
+}
 
+#CURATED{
+    background-color: #020659;
+}
 
 ul {
     text-align: center;
