@@ -11,12 +11,10 @@ body {
 
 
 header {
-  background: linear-gradient(90deg, #2104D9, #000000);
-  padding-top: 90px;
-  padding-bottom: 5px; 
-  padding-left: 25px; 
-  padding-right: 25px; 
-}
+    background: linear-gradient(90deg, #2104D9, #000000);
+    color:#ffffff;
+    padding: 90px 4px 25px 25px;
+  }
 
 nav {
     position: absolute;
@@ -42,9 +40,14 @@ li  {
 h1 {
     font-size:1.25em;
 }
+
+
 h2, h3 {
     font-size: 1em;
+    color: #590242;
 }
+
+
 p, dl, dd {
     font-size: 1em;
 }
@@ -68,6 +71,15 @@ footer p {
 #CURATED{
     background-color: #020659;
 }
+
+
+footer{
+    text-align: center;
+    padding-bottom: 8px; 
+    color: #590242;
+}
+
+
 
 ul {
     text-align: center;
