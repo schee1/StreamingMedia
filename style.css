@@ -97,8 +97,9 @@ footer{
  }
 
 audio{
-    position:absolute;
-    left: 48px;
+    position:relative;
+    right: 312px;
+    bottom:150px;
     opacity: .60;
     padding-top: 125px;
 }
