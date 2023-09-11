@@ -106,45 +106,53 @@ audio{
 
 .Aloma{
     position: relative;
-    bottom: 93px;
+    bottom: 92px;
     background: #808080;
-    opacity: 45%;
-    width: 37.5%;
+    opacity: 60%;
+    width: 37.25%;
+    height: 73px;
 }
 .road{
     position: relative;
-    bottom: 93px;
+    bottom: 92px;
     background: #808080;
-    opacity: 45%;
-    width: 37.5%;
+    opacity: 60%;
+    width: 37.25%;
+    height: 73px;
 }
 
 .fruit{
     position: relative;
-    bottom: 93px;
+    bottom: 92px;
     background: #808080;
-    opacity: 45%;
-    width: 37.5%;
+    opacity: 83%;
+    width: 37.25%;
+    height: 73px;
 }
 
 .smooth{
     position: relative;
-    bottom: 93px;
+    bottom: 92px;
     background: #808080;
-    opacity: 45%;
-    width: 37.5%;
+    opacity: 90%;
+    width: 37.25%;
+    height: 73px;
 }
 
 
 .success{
     position: relative;
-    bottom: 93px;
+    bottom: 92px;
     background: #808080;
-    opacity: 45%;
-    width: 37.5%;
+    opacity: 90%;
+    width: 37.25%;
+    height: 73px;
 }
 
-
+dt, dd{
+    color: #590242;
+    font-size: 12px;
+}
 
     ul {
     text-align: center;
