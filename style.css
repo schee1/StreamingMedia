@@ -21,7 +21,7 @@ nav {
     top: 0;
     z-index: 1;
     text-transform: uppercase;
-    background color: #030A8C;
+    background-color: #030A8C;
 }
 
 nav h2 {
@@ -51,7 +51,8 @@ footer p {
     font-size: .75em;
 }
 
-<!-- Menu Text  -->
+
+
 
 
 ul {
@@ -126,7 +127,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
 }
 
-<!-- Audio  -->
+
+
 
 audio::-webkit-media-controls-mute-button {
 
@@ -139,7 +141,7 @@ audio::-webkit-media-controls-enclosure {
 }
 
 
-<!-- Scroll  -->
+
 
 
 #trending ::-webkit-scrollbar {
