@@ -6,7 +6,9 @@ body {
   margin: 0 auto;
   max-width: 834px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffffff;
 }
+
 
 header {
   background: linear-gradient(90deg, #2104D9, #000000);
