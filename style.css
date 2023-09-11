@@ -58,6 +58,7 @@ footer p {
 
 .playsty{
     background-color: #2699FB;
+    color: #ffffff;
 }
 
 #PLAYLISTS{
@@ -66,6 +67,7 @@ footer p {
 
 .CuratedSty{
     background-color: #2104D9;
+    color: #ffffff;
 }
 
 #CURATED{
@@ -79,6 +81,21 @@ footer{
     color: #590242;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.item1{
+    grid-column: 1;
+   grid-row: 1;
+ }
+ 
+ .item2{
+    grid-column: 2;
+   grid-row: 1;
+ }
+ 
 
 
 ul {
@@ -182,6 +199,9 @@ audio::-webkit-media-controls-enclosure {
 #trending ::-webkit-scrollbar-thumb:hover {
 
 }
+
+
+
 #playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
 
 }
