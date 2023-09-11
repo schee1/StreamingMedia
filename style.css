@@ -37,24 +37,19 @@ li  {
   
   }
 
-.container {
-  width:100%;
-  height: 100%;
+h1 {
+    font-size:1.25em;
+}
+h2, h3 {
+    font-size: 1em;
+}
+p, dl, dd {
+    font-size: 1em;
 }
 
-.music-player{
-  background: #ffffff;
-  width:400px;
-  padding: 25px 35px;
-  text-align: center;
-  
-  
+footer p {
+    font-size: .75em;
 }
-
-h1 {font-size:1.25em;}
-h2, h3 {font-size: 1em;}
-p, dl, dd {font-size: 1em;}
-footer p {font-size: .75em;}
 
 <!-- Menu Text  -->
 
