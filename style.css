@@ -39,7 +39,7 @@ nav h2 {
     text-decoration: none;
 }
 
-.scroll{
+.scrollbar{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 37%;
@@ -47,8 +47,23 @@ nav h2 {
     overflow-y: hidden;
     gap: 20px;
     height: 350px;
-    margin: 10px;
+    margin: 1px;
 }
+
+::-webkit-scrollbar{
+    width: 100%;
+}
+
+::-webkit-scrollbar-track{
+    border:1px solid #590242;
+    border-radius: 2px;
+    background:#5f4a59;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #590242;
+}
+
 
 
 li  {
@@ -318,45 +333,3 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 
 
-
-audio::-webkit-media-controls-mute-button {
-
-}
-audio::-webkit-media-controls-play-button {
-
-}
-audio::-webkit-media-controls-enclosure {
-
-}
-
-
-
-
-
-#trending ::-webkit-scrollbar {
-
-}
-#trending ::-webkit-scrollbar-track {
-
-}
-#trending ::-webkit-scrollbar-thumb {
-
-}
-#trending ::-webkit-scrollbar-thumb:hover {
-
-}
-
-
-
-#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
-
-}
-#playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
-
-}
-#playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
-
-}
-#playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
-
-}
