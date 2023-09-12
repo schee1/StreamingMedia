@@ -47,7 +47,7 @@ nav h2 {
     overflow-y: hidden;
     gap: 20px;
     height: 350px;
-    margin: 1px;
+    margin: 5px;
 }
 
 ::-webkit-scrollbar{
@@ -64,8 +64,6 @@ nav h2 {
     background: #590242;
 }
 
-
-
 li  {
     margin:25px;
   }
@@ -77,6 +75,7 @@ li a{
 
 a:hover, input:hover{
     background-color: #590242;
+    width: 100px;
 }
 
 h1 {
@@ -303,6 +302,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     label span, input {
         display: none;
     }
+
+    
 }
 
 
