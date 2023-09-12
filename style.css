@@ -39,6 +39,17 @@ nav h2 {
     text-decoration: none;
 }
 
+.scroll{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 37%;
+    overflow: auto;
+    overflow-y: hidden;
+    gap: 20px;
+    height: 350px;
+    margin: 10px;
+}
+
 
 li  {
     margin:25px;
@@ -87,6 +98,7 @@ footer p {
 
 #PLAYLISTS{
     background-color: #0D8DFB; 
+    
 }
 
 .CuratedSty{
@@ -98,6 +110,33 @@ footer p {
     background-color: #020659;
 }
 
+button{
+    background-color: #590242;
+    color: #ffffff;
+    width: 130px;
+    padding: 5px;
+}
+
+.button1{
+    position:relative;
+    left: 686px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button2{
+    position:relative;
+    left: 280px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button3{
+    position:relative;
+    left: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
 
 footer{
     text-align: center;
@@ -122,54 +161,54 @@ footer{
 
 audio{
     position:relative;
-    right: 312px;
-    bottom:150px;
+    left: 5px;
+    bottom:180px;
     opacity: .60;
-    padding-top: 125px;
+
 }
 
 .Aloma{
     position: relative;
-    bottom: 92px;
+    bottom:150px;
     background: #808080;
     opacity: 50%;
-    width: 37.25%;
+    width: 101%;
     height: 73px;
 }
 .road{
     position: relative;
-    bottom: 92px;
+    bottom: 150px;
     background: #808080;
     opacity: 60%;
-    width: 37.25%;
+    width: 101%;
     height: 73px;
 }
 
 .fruit{
     position: relative;
-    bottom: 92px;
+    bottom: 150px;
     background: #808080;
     opacity: 83%;
-    width: 37.25%;
+    width: 101%;
     height: 73px;
 }
 
 .smooth{
     position: relative;
-    bottom: 92px;
+    bottom: 150px;
     background: #808080;
     opacity: 90%;
-    width: 37.25%;
+    width: 101%;
     height: 73px;
 }
 
 
 .success{
     position: relative;
-    bottom: 92px;
+    bottom: 150px;
     background: #808080;
     opacity: 90%;
-    width: 37.25%;
+    width: 101%;
     height: 73px;
 }
 
@@ -251,6 +290,32 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
 }
 
+
+@media screen and (min-width:0px) {
+    ul {
+        overflow: visible;
+        position: absolute;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    label span, input {
+        display: none;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #playlist div{
+        display: grid;
+    }
+
+    #curated div{
+        display: grid;
+    }
+}
 
 
 
