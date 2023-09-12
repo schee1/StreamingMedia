@@ -183,46 +183,46 @@ audio{
 
 .Aloma{
     position: relative;
-    bottom:150px;
+    bottom: 149px;
     background: #808080;
     opacity: 50%;
-    width: 101%;
+    width: 102.2%;
     height: 73px;
 }
 .road{
     position: relative;
-    bottom: 150px;
+    bottom: 149px;
     background: #808080;
     opacity: 60%;
-    width: 101%;
+    width: 102.2%;
     height: 73px;
 }
 
 .fruit{
     position: relative;
-    bottom: 150px;
+    bottom: 149px;
     background: #808080;
     opacity: 83%;
-    width: 101%;
+    width: 102.2%;
     height: 73px;
 }
 
 .smooth{
     position: relative;
-    bottom: 150px;
+    bottom: 149px;
     background: #808080;
     opacity: 90%;
-    width: 101%;
+    width: 102.2%;
     height: 73px;
 }
 
 
 .success{
     position: relative;
-    bottom: 150px;
+    bottom: 149px;
     background: #808080;
     opacity: 90%;
-    width: 101%;
+    width: 102.2%;
     height: 73px;
 }
 
