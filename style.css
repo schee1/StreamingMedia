@@ -94,6 +94,7 @@ h2, h3 {
 h3{
     padding-top: 10px;
     margin-left: 5px; 
+    font-weight: bold;
 }
 
 
@@ -178,6 +179,7 @@ audio{
     left: 5px;
     bottom:180px;
     opacity: .60;
+    border-radius: 10%;
 
 }
 
@@ -226,10 +228,21 @@ audio{
     height: 73px;
 }
 
-dt, dd{
+dd{
+    position:absolute;
+    color: #590242;
+    font-size: 12px;
+    bottom: 13px;
+    left: 13px;
+    font-weight: bold;
+    
+}
+
+dt{
     color: #590242;
     font-size: 12px;
     margin-left: 5px;
+    font-weight: bold;
 }
 
     ul {
