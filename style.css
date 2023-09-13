@@ -84,19 +84,57 @@ h1 {
 
 h2{
     margin-left: 20px;
+    color:#590242
 }
 
 h2, h3 {
     font-size: 1em;
-    color: #590242;
 }
 
-h3{
+ .Aloma h2{
     padding-top: 10px;
     margin-left: 5px; 
     font-weight: bold;
+    color:#590242
 }
 
+.road h2{
+    padding-top: 10px;
+    margin-left: 5px; 
+    font-weight: bold;
+    color:#590242
+}
+
+.fruit h2{
+    padding-top: 10px;
+    margin-left: 5px; 
+    font-weight: bold;
+    color:#590242
+}
+
+.smooth h2{
+    padding-top: 10px;
+    margin-left: 5px; 
+    font-weight: bold;
+    color:#590242
+}
+
+.success h2{
+    padding-top: 10px;
+    margin-left: 5px; 
+    font-weight: bold;
+    color:#590242
+}
+
+.curetitle{
+    position: relative;
+    left: 400px;
+}
+
+.playtitle{
+    position: relative;
+    top: 32px;
+}
 
 p, dl, dd {
     font-size: 1em;
@@ -114,6 +152,7 @@ footer p {
 
 #PLAYLISTS{
     background-color: #0D8DFB; 
+    text-align: center;
     
 }
 
@@ -124,6 +163,7 @@ footer p {
 
 #CURATED{
     background-color: #020659;
+    text-align: center;
 }
 
 button{
@@ -162,18 +202,29 @@ footer{
 
 .grid-container {
     display: grid;
+    grid-auto-flow: row;
     grid-template-columns: 50% 50%;
+    height: 450px;
 }
 
 .item1{
     grid-column: 1;
    grid-row: 1;
+   width: 410px;
+   display: grid;
+   overflow-y: scroll;
+   padding-bottom: 0;
  }
  
  .item2{
     grid-column: 2;
    grid-row: 1;
+   width: 417px;
+   display: grid;
+   overflow-y: scroll;
+   padding-bottom: 0;
  }
+
 
 audio{
     position:relative;
@@ -229,11 +280,21 @@ audio{
     height: 86px;
 }
 
+.playsty img{
+    float: left;
+    margin: 8px;
+}
+
+.CuratedSty img{
+    float: left;
+    margin: 8px;
+}
+
 dd{
     position:absolute;
     color: #590242;
     font-size: 12px;
-    bottom: 13px;
+    bottom: 26px;
     left: 13px;
     font-weight: bold;
     
