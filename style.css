@@ -203,7 +203,7 @@ footer{
 .grid-container {
     display: grid;
     grid-auto-flow: row;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
     height: 450px;
 }
 
@@ -380,8 +380,5 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     label span, input {
         display: none;
     }
-
- 
-
 }
 
