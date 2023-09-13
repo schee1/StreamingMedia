@@ -13,7 +13,7 @@ body {
 header {
     background: linear-gradient(90deg, #2104D9, #000000);
     color:#ffffff;
-    padding: 90px 4px 25px 25px;
+    padding: 85px 1px 8px 25px;
   }
 
 nav {
@@ -104,6 +104,7 @@ p, dl, dd {
 
 footer p {
     font-size: .75em;
+    font-weight: bold;
 }
 
 .playsty{
@@ -189,7 +190,7 @@ audio{
     background: #808080;
     opacity: 50%;
     width: 102.2%;
-    height: 73px;
+    height: 86px;
 }
 .road{
     position: relative;
@@ -197,7 +198,7 @@ audio{
     background: #808080;
     opacity: 60%;
     width: 102.2%;
-    height: 73px;
+    height: 86px;
 }
 
 .fruit{
@@ -206,7 +207,7 @@ audio{
     background: #808080;
     opacity: 83%;
     width: 102.2%;
-    height: 73px;
+    height: 86px;
 }
 
 .smooth{
@@ -215,7 +216,7 @@ audio{
     background: #808080;
     opacity: 90%;
     width: 102.2%;
-    height: 73px;
+    height: 86px;
 }
 
 
@@ -225,7 +226,7 @@ audio{
     background: #808080;
     opacity: 90%;
     width: 102.2%;
-    height: 73px;
+    height: 86px;
 }
 
 dd{
@@ -309,41 +310,17 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         overflow: visible;
         position: absolute;
         top: 0;
-        display: grid;
+        display: flex;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-    label span, input {
-        display: none;
+
     }
 
     
-}
-
-
-@media screen and (min-width:0px) {
-    ul {
-        overflow: visible;
-        position: absolute;
-        top: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
     label span, input {
         display: none;
     }
 
-    .grid-container{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
+ 
 
-    #playlist div{
-        display: grid;
-    }
-
-    #curated div{
-        display: grid;
-    }
 }
-
 
