@@ -39,30 +39,6 @@ nav h2 {
     text-decoration: none;
 }
 
-.scrollbar{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 37%;
-    overflow: auto;
-    overflow-y: hidden;
-    gap: 20px;
-    height: 350px;
-    margin: 5px;
-}
-
-::-webkit-scrollbar{
-    width: 100%;
-}
-
-::-webkit-scrollbar-track{
-    border:1px solid #590242;
-    border-radius: 2px;
-    background:#5f4a59;
-}
-
-::-webkit-scrollbar-thumb{
-    background: #590242;
-}
 
 li  {
     margin:25px;
@@ -91,54 +67,18 @@ h2, h3 {
     font-size: 1em;
 }
 
- .Aloma h2{
-    padding-top: 10px;
-    margin-left: 5px; 
-    font-weight: bold;
-    color:#590242
-}
-
-.road h2{
-    padding-top: 10px;
-    margin-left: 5px; 
-    font-weight: bold;
-    color:#590242
-}
-
-.fruit h2{
-    padding-top: 10px;
-    margin-left: 5px; 
-    font-weight: bold;
-    color:#590242
-}
-
-.smooth h2{
-    padding-top: 10px;
-    margin-left: 5px; 
-    font-weight: bold;
-    color:#590242
-}
-
-.success h2{
-    padding-top: 10px;
-    margin-left: 5px; 
-    font-weight: bold;
-    color:#590242
-}
-
-.curetitle{
-    position: relative;
-    left: 400px;
-}
-
-.playtitle{
-    position: relative;
-    top: 32px;
-}
 
 p, dl, dd {
     font-size: 1em;
 }
+
+
+footer{
+    text-align: center;
+    padding-bottom: 8px; 
+    color: #590242;
+}
+
 
 footer p {
     font-size: .75em;
@@ -162,9 +102,20 @@ footer p {
 }
 
 #CURATED{
-    background-color: #020659;
+    background-color: #03097b;
     text-align: center;
 }
+
+.curetitle{
+    position: relative;
+    left: 400px;
+}
+
+.playtitle{
+    position: relative;
+    top: 32px;
+}
+
 
 button{
     background-color: #590242;
@@ -192,12 +143,6 @@ button{
     left: 270px;
     margin: 10px;
     border-radius: 5px;
-}
-
-footer{
-    text-align: center;
-    padding-bottom: 8px; 
-    color: #590242;
 }
 
 .grid-container {
@@ -235,49 +180,18 @@ audio{
 
 }
 
-.Aloma{
+.ArtistInfo{
     position: relative;
-    bottom: 149px;
+    bottom: 155px;
     background: #808080;
-    opacity: 50%;
+    opacity: 80%;
     width: 102.2%;
-    height: 86px;
-}
-.road{
-    position: relative;
-    bottom: 149px;
-    background: #808080;
-    opacity: 60%;
-    width: 102.2%;
-    height: 86px;
+    height: 82px;
 }
 
-.fruit{
+.ArtistInfo h2{
     position: relative;
-    bottom: 149px;
-    background: #808080;
-    opacity: 83%;
-    width: 102.2%;
-    height: 86px;
-}
-
-.smooth{
-    position: relative;
-    bottom: 149px;
-    background: #808080;
-    opacity: 90%;
-    width: 102.2%;
-    height: 86px;
-}
-
-
-.success{
-    position: relative;
-    bottom: 149px;
-    background: #808080;
-    opacity: 90%;
-    width: 102.2%;
-    height: 86px;
+    top: 18px;
 }
 
 .playsty img{
@@ -294,20 +208,48 @@ dd{
     position:absolute;
     color: #590242;
     font-size: 12px;
-    bottom: 26px;
-    left: 13px;
+    bottom: 22px;
+    left: 28px;
     font-weight: bold;
-    
 }
 
 dt{
+    position: absolute;
     color: #590242;
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: 20px;
     font-weight: bold;
+    bottom: 22px;
 }
 
-    ul {
+
+.scrollbar{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 37%;
+    overflow: auto;
+    overflow-y: hidden;
+    gap: 20px;
+    height: 350px;
+    margin: 5px;
+}
+
+::-webkit-scrollbar{
+    width: 100%;
+}
+
+::-webkit-scrollbar-track{
+    border:1px solid #590242;
+    border-radius: 2px;
+    background:#5f4a59;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #590242;
+}
+
+
+ul {
     text-align: center;
     margin: 0;
     padding: 0;
@@ -381,4 +323,3 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         display: none;
     }
 }
-
