@@ -356,8 +356,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         left:auto;
 }
 
-.curetitle{
-    position:auto;
+    .curetitle{
     left: 50%;
 }
  
