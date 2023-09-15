@@ -324,8 +324,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
     @media screen and (max-width:834px) {
 
-        
-
     .grid-container{
         display:grid;
     }
