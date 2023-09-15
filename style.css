@@ -317,9 +317,50 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     }
-
     
     label span, input {
         display: none;
+    } 
+}
+    @media screen and (max-width:834px) {
+
+        
+
+    .grid-container{
+        display:grid;
     }
+
+      .item1 {
+        width: 100%;
+        display: flex;
+      }
+
+      .item2 {
+        width: 100%;
+        display:flex;
+
+      }
+     
+    .button1{
+        position: relative;
+        left: auto;
+
+    }
+
+    .button2{
+        height: 30px;
+        position: relative;
+        left: auto;
+    }
+
+    .button3{
+        height: 30px;
+        left:auto;
+}
+
+.curetitle{
+    position:auto;
+    left: 50%;
+}
+ 
 }
